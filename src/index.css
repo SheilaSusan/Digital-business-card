@@ -7,7 +7,7 @@ body{
 }
 
 img{
-  max-width: 200px;
+  max-width: 350px;
   height: auto;
 }
 
@@ -15,6 +15,14 @@ h1{
   color: white;
   font-size: 25px;
   font-weight: 700;
+}
+
+.main{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #1A1B21;
+  width: 350px;
+  border-radius: 10px;
 }
 
 .contacts{
@@ -25,4 +33,49 @@ h1{
   color: #F3BF99;
   font-weight: 400;
   font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.email, .linkedin{
+  text-decoration: none;
+  padding: 9px 13px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.email{
+  background-color: white;
+  color: #374151;
+}
+
+.linkedin{
+  background-color: #5093E2;
+  color: white;
+}
+
+.about, .interests{
+  color: #DCDCDC;
+  line-height: 150%;
+  font-size: 14px;
+}
+
+.about-icon{
+  margin-right: 10px;
+  margin-bottom: -2px;
+}
+
+footer .icon{
+  color: #918E9B;
+  font-size: 25px;
+}
+
+footer{
+  background: #161619;
+  padding: 20px 0 10px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer > a{
+  margin-right: 10px;
 }
